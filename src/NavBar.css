@@ -16,7 +16,9 @@
   color: #000000;
   letter-spacing: 1px;
   font-size: 20px;
-  transition: 1s;
+  padding: 10px 10px;
+  border-bottom: 1px solid #ffffff;
+  transition: .3s;
 }
 
 .navBar nav ul li a:hover {

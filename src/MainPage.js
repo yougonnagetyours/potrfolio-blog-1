@@ -12,7 +12,7 @@ class MainPage extends Component {
   render() {
     return (
       <div>
-
+        Halo!
       </div>
     );
   }
