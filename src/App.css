@@ -7,12 +7,13 @@
 .App {
   position: relative;
   width: 100%;
+  height: 100%;
 }
 
 header {
   position: relative;
   height: 40vh;
-  background-color: #777777;
+  background-color: #00CC8B;
 }
 
 header .main-logo {
@@ -38,7 +39,7 @@ header .main-logo h1 {
   position: absolute;
   left: 15px;
   top: 10px;
-  height: 50px;
+  height: 60px;
 }
 
 button .navbar-toggler {
@@ -54,6 +55,8 @@ nav .navbar-top {
   background-color: #000000;
 }
 
-/* .navbar-toggler-icon {
-  color: #000000;
-} */
+main {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: #000000;
+}
