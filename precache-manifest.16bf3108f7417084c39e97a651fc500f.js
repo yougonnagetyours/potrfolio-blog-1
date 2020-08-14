@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ae72ce5f5eeb6c3b5955",
-    "url": "/potrfolio-blog-1/static/css/main.c44c85a7.chunk.css"
+    "revision": "6decb70058f7e464b742",
+    "url": "/potrfolio-blog-1/static/css/main.57801985.chunk.css"
   },
   {
-    "revision": "ae72ce5f5eeb6c3b5955",
-    "url": "/potrfolio-blog-1/static/js/main.8d11f7c9.chunk.js"
+    "revision": "6decb70058f7e464b742",
+    "url": "/potrfolio-blog-1/static/js/main.1934aaaf.chunk.js"
   },
   {
     "revision": "d7895d39aeaa736e3b47",
@@ -44,7 +44,11 @@ self.__precacheManifest = [
     "url": "/potrfolio-blog-1/static/media/IMG_3386.d37781f3.jpeg"
   },
   {
-    "revision": "0c2cb20f63ca75a656e7e2f4328d4bed",
+    "revision": "ca85e7ee71e27302767a2ce233f13f86",
+    "url": "/potrfolio-blog-1/static/media/Background.ca85e7ee.jpeg"
+  },
+  {
+    "revision": "ae3668ae2f416c93c36d13531d21c0ab",
     "url": "/potrfolio-blog-1/index.html"
   }
 ];
