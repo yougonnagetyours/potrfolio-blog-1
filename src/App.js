@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.sass';
 import kangarooSmall from './img/kangarooSmall.png';
 import hamburger from './img/hamburger.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -62,7 +62,10 @@ class App extends Component {
           </div>
         </main>
         <section className="about-me">
-          {/* <p>ble ble ble</p> */}
+          <div className="tittle">
+            <h2>about</h2>
+            <h1>me</h1>
+          </div>
         </section>
       </div >
     );
