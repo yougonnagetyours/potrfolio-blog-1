@@ -49,10 +49,10 @@ class App extends Component {
               <div class="col-sm px-0 col-sm-4 px-2 pb-3">
                 <img src={img3} className="img-fluid" alt="img1" />
               </div>
-              <div class="col-sm px-0 mx-auto col-sm-4 px-2 pb-3">
+              <div class="col-sm px-auto mx-auto col-sm-4 px-2 pb-3">
                 <img src={img4} className="img-fluid" alt="img1" />
               </div>
-              <div class="col-sm px-0 mx-auto col-sm-4 px-2 pb-3">
+              <div class="col-sm px-auto mx-auto col-sm-4 px-2 pb-3">
                 <img src={img5} className="img-fluid" alt="img1" />
               </div>
               <div class="col-sm px-0 col-sm-4 px-2 pb-3">
@@ -61,6 +61,9 @@ class App extends Component {
             </div>
           </div>
         </main>
+        <section className="about-me">
+          {/* <p>ble ble ble</p> */}
+        </section>
       </div >
     );
   }
