@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.sass';
 import kangarooSmall from './img/kangarooSmall.png';
 import hamburger from './img/hamburger.png';
+import background from './img/Background.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from './img/IMG_2852.jpeg';
 import img2 from './img/IMG_2863.jpeg';
@@ -22,10 +23,10 @@ class App extends Component {
       isActive: !this.state.isActive
     })
   }
-
   render() {
     return (
-      <div className="App">
+      <div className={this.state.isActive ? "App activeApp" : "App"}>
+        <img className="background" src={background} alt="background" />
         <header>
           <nav className="navbar navbar-expand-sm navbar-top">
             <a className="navbar-brand" href="#">

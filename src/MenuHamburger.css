@@ -2,6 +2,7 @@ nav.menu-hamburger {
   position: fixed;
   left: 100%;
   top: 0;
+  z-index: 50;
   list-style: none;
   /* transition: 1s; */
 }
@@ -26,5 +27,5 @@ nav.active {
   color: #ffffff;
   background-color: #000000;
   z-index: 50;
-  transition: .3s;
+  transition: 1s;
 }

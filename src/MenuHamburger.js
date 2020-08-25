@@ -6,7 +6,8 @@ const MenuHamburger = (props) => {
   const isActive = props.isActive;
 
   return (
-    <nav className={isActive ? "active" : "menu-hamburger"}>
+    // <nav className={isActive ? "active" : "menu-hamburger"}>
+    <nav className={"menu-hamburger"}>
       <ul>
         <li>Home</li>
         <li>About me</li>
