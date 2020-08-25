@@ -9,9 +9,19 @@ import img3 from './img/IMG_2865.jpeg';
 import img4 from './img/IMG_2867.jpeg';
 import img5 from './img/IMG_2885.jpeg';
 import img6 from './img/IMG_3386.jpeg';
+import MenuHamburger from './MenuHamburger'
 
 class App extends Component {
+  state = {
+    isActive: false,
+  }
 
+  handleMenu = () => {
+    console.log('click')
+    this.setState({
+      isActive: !this.state.isActive
+    })
+  }
 
   render() {
     return (
@@ -21,22 +31,16 @@ class App extends Component {
             <a className="navbar-brand" href="#">
               <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
             </a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button onClick={this.handleMenu} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <img className='hamburger' src={hamburger} alt="hamburger" />
             </button>
-            {/* <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-               </ul> 
-            </div>*/}
           </nav>
           <div className="main-logo">
             <h2>Kangur</h2>
             <h1>Photography</h1>
           </div>
         </header>
+        <MenuHamburger isActive={this.state.isActive} />
         <main>
           <div class="container">
             <div class="row">
@@ -62,11 +66,19 @@ class App extends Component {
           </div>
         </main>
         <section className="about-me">
-          <div className="tittle">
-            <h2>about</h2>
-            <h1>me</h1>
+          <div className="about-me-wrap">
+            <div className="top">
+              <h2>about</h2>
+              <h1>me</h1>
+            </div>
+            <div className="body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem necessitatibus laboriosam aspernatur incidunt quod quam quas debitis dolorem velit aliquid provident, corrupti hic obcaecati porro ipsum, cupiditate id! Sit</p>
+            </div>
           </div>
         </section>
+        <footer>
+          <p>@yougonnagetyours 2020</p>
+        </footer>
       </div >
     );
   }
