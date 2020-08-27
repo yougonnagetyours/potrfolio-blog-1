@@ -11,8 +11,7 @@
   // background-position: center
   background-repeat: repeat
   background-size: cover
-  transition: 3s linear
-  // USTAWIĆ HOVER NA .HAMBURGER
+  transition: 3s  
   .background
     position: fixed
     left: 0
@@ -23,19 +22,22 @@
     position: relative
     height: 40vh
     nav
-      a
+      .brand
         .kangaroo
           position: absolute
           left: 15px
           top: 10px
           height: 60px
       button
-        .hamburger
-          position: fixed
-          right: 5vw
-          top: 3vh
-          height: 35px
-          z-index: 51
+        position: fixed
+        right: 5vw
+        top: 3vh
+        z-index: 51
+        border: none
+        background-color: rgba(0,0,0,0)
+        .burgerImg
+          height: 6vh
+      button:hover    
     .main-logo
       position: absolute
       left: 50%
@@ -50,9 +52,20 @@
       h2 
         font-size: 46px
   main
-    padding-top: 18px
-    padding-bottom: 0
-    background-color: #000000
+    .image-box
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-around
+      align-content: space-around
+      div
+        padding: 10px 20px
+        flex-basis: 100%
+        // @media (min-width: 576px)
+        //   flex-basis: 45%
+        // @media (min-width: 768px)
+        //   flex-basis: 33%  
+        img
+          width: 100%
   section.about-me
     position: relative
     min-height: 100vh
@@ -97,10 +110,12 @@
       font-size: 10px
       letter-spacing: 3px
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
-.activeApp
-  position: relative
-  right: 100%
-  top: 0
-  transition: 3s
-.App .activeApp
-  transition: 3s
+// .activeApp
+//   position: relative
+//   right: 100%
+//   top: 0
+//   transition: 3s
+
+           
+  
+

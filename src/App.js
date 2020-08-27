@@ -28,42 +28,41 @@ class App extends Component {
       <div className={this.state.isActive ? "App activeApp" : "App"}>
         <img className="background" src={background} alt="background" />
         <header>
-          <nav className="navbar navbar-expand-sm navbar-top">
-            <a className="navbar-brand" href="#">
+          <nav>
+            <div>
               <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
-            </a>
-            <button onClick={this.handleMenu} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <img className='hamburger' src={hamburger} alt="hamburger" />
+            </div>
+            <button onClick={this.handleMenu} className="burger">
+              <img className='burgerImg' src={hamburger} alt="hamburger" />
             </button>
+            <MenuHamburger isActive={this.state.isActive} />
           </nav>
           <div className="main-logo">
             <h2>Kangur</h2>
             <h1>Photography</h1>
           </div>
         </header>
-        <MenuHamburger isActive={this.state.isActive} />
         <main>
-          <div class="container">
-            <div class="row">
-              <div class="col-sm px-0 col-sm-4 px-2 pb-3">
-                <img src={img1} className="img-fluid" alt="img1" />
-              </div>
-              <div class="col-sm px-0 col-sm-4 px-2 pb-3">
-                <img src={img2} className="img-fluid" alt="img1" />
-              </div>
-              <div class="col-sm px-0 col-sm-4 px-2 pb-3">
-                <img src={img3} className="img-fluid" alt="img1" />
-              </div>
-              <div class="col-sm px-auto mx-auto col-sm-4 px-2 pb-3">
-                <img src={img4} className="img-fluid" alt="img1" />
-              </div>
-              <div class="col-sm px-auto mx-auto col-sm-4 px-2 pb-3">
-                <img src={img5} className="img-fluid" alt="img1" />
-              </div>
-              <div class="col-sm px-0 col-sm-4 px-2 pb-3">
-                <img src={img6} className="img-fluid" alt="img1" />
-              </div>
+          <div class="image-box">
+            <div>
+              <img src={img1} alt="img1" />
             </div>
+            <div>
+              <img src={img2} alt="img2" />
+            </div>
+            <div>
+              <img src={img3} alt="img3" />
+            </div>
+            <div>
+              <img src={img4} alt="img4" />
+            </div>
+            <div>
+              <img src={img5} alt="img5" />
+            </div>
+            <div>
+              <img src={img6} alt="img6" />
+            </div>
+
           </div>
         </main>
         <section className="about-me">

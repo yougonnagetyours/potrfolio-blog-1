@@ -6,14 +6,11 @@ const MenuHamburger = (props) => {
   const isActive = props.isActive;
 
   return (
-    // <nav className={isActive ? "active" : "menu-hamburger"}>
-    <nav className={"menu-hamburger"}>
-      <ul>
-        <li>Home</li>
-        <li>About me</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <ul className={isActive ? "active" : "menu-hamburger"}>
+      <li>Home</li>
+      <li>About me</li>
+      <li>Contact</li>
+    </ul>
   );
 }
 
