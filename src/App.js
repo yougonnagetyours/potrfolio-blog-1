@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.sass';
 import kangarooSmall from './img/kangarooSmall.png';
 import hamburger from './img/hamburger.png';
-import background from './img/Background.jpeg';
+import close from './img/close.png';
+import backgroundBest2 from './img/background-best2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from './img/IMG_2852.jpeg';
 import img2 from './img/IMG_2863.jpeg';
@@ -26,14 +27,14 @@ class App extends Component {
   render() {
     return (
       <div className={this.state.isActive ? "App activeApp" : "App"}>
-        <img className="background" src={background} alt="background" />
+        <img className="background" src={backgroundBest2} alt="background" />
         <header>
           <nav>
             <div>
               <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
             </div>
             <div onClick={this.handleMenu} className="burger">
-              <img className='burgerImg' src={hamburger} alt="hamburger" />
+              <img className={this.state.isActive ? 'burger-img close' : 'burger-img'} alt="hamburger" src={this.state.isActive ? close : hamburger} />
             </div>
             <MenuHamburger isActive={this.state.isActive} />
           </nav>
@@ -72,7 +73,7 @@ class App extends Component {
               <h1>me</h1>
             </div>
             <div className="body">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatem necessitatibus laboriosam aspernatur incidunt quod quam quas debitis dolorem velit aliquid provident, corrupti hic obcaecati porro ipsum, cupiditate id! Sit</p>
+              <p>I am a passionate photographer, specialized in the landscapes, beautiful views and the people with nature in the background</p>
             </div>
           </div>
         </section>

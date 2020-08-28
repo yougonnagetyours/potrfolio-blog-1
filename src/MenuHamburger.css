@@ -3,15 +3,22 @@ ul.menu-hamburger {
   z-index: 50;
   left: 100%;
   top: 0;
-  padding-top: 23vh;
+  padding-top: 12vh;
   list-style: none;
   text-align: center;
   width: 85%;
   height: 100%;
+  /* background-color: rgba(0, 0, 0, .87); */
   color: #ffffff;
   background-color: #000000;
   list-style: none;
   transition: .5s;
+}
+
+.kangaroo-menu {
+  padding-bottom: 70px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
 }
 
 li {
@@ -27,13 +34,13 @@ li {
   position: fixed;
   left: 15%;
   top: 0;
-  padding-top: 23vh;
+  padding-top: 12vh;
   list-style: none;
   text-align: center;
   width: 85%;
   height: 100%;
   color: #ffffff;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, .87);
   z-index: 50;
   transition: .5s;
 }

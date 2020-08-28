@@ -22,7 +22,7 @@
     z-index: -50
   header 
     position: relative
-    height: 40vh
+    height: 75vh
     nav
       div
         .kangaroo
@@ -35,16 +35,24 @@
         right: 5vw
         top: 3vh
         z-index: 51
+        padding: 2px
         border: none
-        background-color: rgba(0,0,0,0)
         cursor: pointer
-        .burgerImg
+        .burger-img
           height: 6vh
+          background-color: rgba(0,0,0,0)
+          transition: .3s
+        .close 
+          // height: 6vh 
+          // border-radius: 50px
+          height: 5vh
+          -webkit-filter: invert(1)
+          filter: invert(1)      
       button:hover    
     .main-logo
       position: absolute
       left: 50%
-      top: 60%
+      top: 52%
       transform: translate(-50%, -50%)
       font-family: 'Permanent Marker', cursive
       text-align: center
@@ -57,9 +65,13 @@
   main
     .image-box
       display: flex
+      width: 100%
+      border-radius: 20px 
       flex-wrap: wrap
       justify-content: space-around
       align-content: space-around
+      background-color: rgba(0,0,0,.87)
+      padding: 10px 0
       div
         padding: 10px 20px
         flex-basis: 100%
@@ -77,6 +89,10 @@
       left: 50%
       top: 50%
       transform: translate(-50%, -50%)
+      padding: 16px 13px 0
+      // background-color: rgba(255,255,255,.5)
+      background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,0))
+      border-radius: 80px
       width: 75vw
       font-family: 'Permanent Marker', cursive
       text-align: center
@@ -93,6 +109,9 @@
         // left: 50%
         // top: 25%
         // transform: translate(-50%, -50%)
+        // background-color: rgba(255,255,255,.35)
+        // padding: 10px
+        // border-radius: 50px
         font-family: 'Permanent Marker', cursive
         text-align: center
         text-transform: uppercase
@@ -108,10 +127,11 @@
     background-color: #000000
     p
       margin-top: 12px
-      line-height: 10px
+      line-height: 12px
       color: #6969696e
-      font-size: 10px
+      font-size: 9px
       letter-spacing: 3px
+      text-transform: uppercase
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
 .activeApp
   position: relative
