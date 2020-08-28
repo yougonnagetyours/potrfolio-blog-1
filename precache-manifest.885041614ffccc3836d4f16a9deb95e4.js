@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "750be0bf1a5881677bf2",
-    "url": "/potrfolio-blog-1/static/css/main.9a9ed684.chunk.css"
+    "revision": "a0e7a0eeb590cff08a16",
+    "url": "/potrfolio-blog-1/static/css/main.75588949.chunk.css"
   },
   {
-    "revision": "750be0bf1a5881677bf2",
-    "url": "/potrfolio-blog-1/static/js/main.8f208af5.chunk.js"
+    "revision": "a0e7a0eeb590cff08a16",
+    "url": "/potrfolio-blog-1/static/js/main.d0f2ae50.chunk.js"
   },
   {
     "revision": "d7895d39aeaa736e3b47",
     "url": "/potrfolio-blog-1/static/js/runtime~main.54744e19.js"
   },
   {
-    "revision": "7ea64f17572d5043d7ac",
+    "revision": "4863f8292446d8242635",
     "url": "/potrfolio-blog-1/static/css/2.5773182c.chunk.css"
   },
   {
-    "revision": "7ea64f17572d5043d7ac",
-    "url": "/potrfolio-blog-1/static/js/2.53b6ff11.chunk.js"
+    "revision": "4863f8292446d8242635",
+    "url": "/potrfolio-blog-1/static/js/2.105584f3.chunk.js"
   },
   {
-    "revision": "ca85e7ee71e27302767a2ce233f13f86",
-    "url": "/potrfolio-blog-1/static/media/Background.ca85e7ee.jpeg"
+    "revision": "25b1fbc8dfbcc7b4effac37b5c710cd9",
+    "url": "/potrfolio-blog-1/static/media/background-best2.25b1fbc8.jpg"
   },
   {
     "revision": "463e7292fc5c153f47e8fedb5904bdd2",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/potrfolio-blog-1/static/media/IMG_3386.d37781f3.jpeg"
   },
   {
-    "revision": "c4c7838b3ec47f616de0bfc90361e4b5",
+    "revision": "db740f750855691b9f7dd28b4350e626",
     "url": "/potrfolio-blog-1/index.html"
   }
 ];
