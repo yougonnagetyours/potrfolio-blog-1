@@ -32,9 +32,9 @@ class App extends Component {
             <div>
               <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
             </div>
-            <button onClick={this.handleMenu} className="burger">
+            <div onClick={this.handleMenu} className="burger">
               <img className='burgerImg' src={hamburger} alt="hamburger" />
-            </button>
+            </div>
             <MenuHamburger isActive={this.state.isActive} />
           </nav>
           <div className="main-logo">

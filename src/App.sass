@@ -4,6 +4,8 @@
   box-sizing: border-box
 .App
   position: relative
+  left: 0
+  top: 0
   // width: 100%
   // height: 100%
   // background-image: url(./img/Background.jpeg)
@@ -11,7 +13,7 @@
   // background-position: center
   background-repeat: repeat
   background-size: cover
-  transition: 3s  
+  transition: .7s  
   .background
     position: fixed
     left: 0
@@ -22,19 +24,20 @@
     position: relative
     height: 40vh
     nav
-      .brand
+      div
         .kangaroo
           position: absolute
           left: 15px
           top: 10px
           height: 60px
-      button
+      .burger
         position: fixed
         right: 5vw
         top: 3vh
         z-index: 51
         border: none
         background-color: rgba(0,0,0,0)
+        cursor: pointer
         .burgerImg
           height: 6vh
       button:hover    
@@ -110,11 +113,11 @@
       font-size: 10px
       letter-spacing: 3px
       font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
-// .activeApp
-//   position: relative
-//   right: 100%
-//   top: 0
-//   transition: 3s
+.activeApp
+  position: relative
+  left: -85%
+  top: 0
+  // transition: 3s
 
            
   
