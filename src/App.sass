@@ -10,7 +10,7 @@
   // height: 100%
   // background-image: url(./img/Background.jpeg)
   // background-attachment: fixed
-  // background-position: center
+  //background-position: 
   background-repeat: repeat
   background-size: cover
   transition: .7s  
@@ -18,7 +18,10 @@
     position: fixed
     left: 0
     top: 0
-    height: 100%
+    //przez height: 100% rozjeżdza się na mobile
+    //jeśli nie pomoże to width 100% plus dodać coś na dół żeby nie było białego paska
+    //Ewentualnie background-image  
+    height: 100vh
     z-index: -50
   header 
     position: relative
@@ -52,7 +55,7 @@
     .main-logo
       position: absolute
       left: 50%
-      top: 52%
+      top: 46%
       transform: translate(-50%, -50%)
       font-family: 'Permanent Marker', cursive
       text-align: center
@@ -70,7 +73,7 @@
       flex-wrap: wrap
       justify-content: space-around
       align-content: space-around
-      background-color: rgba(0,0,0,.87)
+      background-color: rgba(0,0,0,.80)
       padding: 10px 0
       div
         padding: 10px 20px
