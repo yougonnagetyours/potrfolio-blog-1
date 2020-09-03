@@ -2,6 +2,24 @@
   padding: 0
   margin: 0
   box-sizing: border-box
+.burger
+  position: fixed
+  right: 5vw
+  top: 3vh
+  z-index: 51
+  padding: 2px
+  border: none
+  cursor: pointer
+  .burger-img
+    height: 6vh
+    background-color: rgba(0,0,0,0)
+    transition: .3s
+  .close 
+    // height: 6vh 
+    // border-radius: 50px
+    height: 5vh
+    -webkit-filter: invert(1)
+    filter: invert(1)  
 .App
   position: relative
   left: 0
@@ -18,9 +36,7 @@
     position: fixed
     left: 0
     top: 0
-    //przez height: 100% rozjeżdza się na mobile
-    //jeśli nie pomoże to width 100% plus dodać coś na dół żeby nie było białego paska
-    //Ewentualnie background-image  
+    //przez height: 100% rozjeżdzało się na mobile
     height: 100vh
     z-index: -50
   header 
@@ -30,28 +46,27 @@
       div
         .kangaroo
           position: absolute
-          left: 15px
-          top: 10px
+          left: 5vw
+          top: 2vh
           height: 60px
-      .burger
-        position: fixed
-        right: 5vw
-        top: 3vh
-        z-index: 51
-        padding: 2px
-        border: none
-        cursor: pointer
-        .burger-img
-          height: 6vh
-          background-color: rgba(0,0,0,0)
-          transition: .3s
-        .close 
-          // height: 6vh 
-          // border-radius: 50px
-          height: 5vh
-          -webkit-filter: invert(1)
-          filter: invert(1)      
-      button:hover    
+      // .burger
+      //   position: fixed
+      //   right: 5vw
+      //   top: 3vh
+      //   z-index: 51
+      //   padding: 2px
+      //   border: none
+      //   cursor: pointer
+      //   .burger-img
+      //     height: 6vh
+      //     background-color: rgba(0,0,0,0)
+      //     transition: .3s
+      //   .close 
+      //     // height: 6vh 
+      //     // border-radius: 50px
+      //     height: 5vh
+      //     -webkit-filter: invert(1)
+      //     filter: invert(1)         
     .main-logo
       position: absolute
       left: 50%
@@ -75,13 +90,16 @@
       align-content: space-around
       background-color: rgba(0,0,0,.80)
       padding: 10px 0
+      @media (min-width: 576px)
+        flex-direction: column
+        flex-wrap: wrap
       div
         padding: 10px 20px
         flex-basis: 100%
-        // @media (min-width: 576px)
-        //   flex-basis: 45%
-        // @media (min-width: 768px)
-        //   flex-basis: 33%  
+        @media (min-width: 576px)
+          flex-basis: 20%
+        @media (min-width: 768px)
+          flex-basis: 33%  
         img
           width: 100%
   section.about-me

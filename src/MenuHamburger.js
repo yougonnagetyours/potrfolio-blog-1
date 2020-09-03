@@ -1,6 +1,6 @@
 import React from 'react';
 import './MenuHamburger.css';
-import kangarooSmall from './img/kangarooSmall.png';
+import kangarooSmall from './img/kangarooBig.png';
 
 const MenuHamburger = (props) => {
 
