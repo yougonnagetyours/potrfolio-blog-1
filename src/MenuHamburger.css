@@ -21,13 +21,14 @@ ul.menu-hamburger {
   filter: invert(1);
 }
 
-li {
+.li {
   list-style: none;
   margin-bottom: 13vh;
   text-transform: uppercase;
   letter-spacing: 4px;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.7rem;
+  text-decoration: none;
 }
 
 .active {

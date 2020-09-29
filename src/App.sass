@@ -39,34 +39,20 @@
     //przez height: 100% rozjeżdzało się na mobile
     height: 100vh
     z-index: -50
+    @media (min-width: 576px)
+      width: 100vw
   header 
     position: relative
     height: 75vh
+    @media (min-width: 576px)
+      height: 100vh
     nav
       div
         .kangaroo
           position: absolute
           left: 5vw
           top: 2vh
-          height: 60px
-      // .burger
-      //   position: fixed
-      //   right: 5vw
-      //   top: 3vh
-      //   z-index: 51
-      //   padding: 2px
-      //   border: none
-      //   cursor: pointer
-      //   .burger-img
-      //     height: 6vh
-      //     background-color: rgba(0,0,0,0)
-      //     transition: .3s
-      //   .close 
-      //     // height: 6vh 
-      //     // border-radius: 50px
-      //     height: 5vh
-      //     -webkit-filter: invert(1)
-      //     filter: invert(1)         
+          height: 60px        
     .main-logo
       position: absolute
       left: 50%

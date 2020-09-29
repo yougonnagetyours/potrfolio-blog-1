@@ -56,7 +56,7 @@ class App extends Component {
             </div>
           </header>
           <main>
-            <div class="image-box">
+            <div className="image-box">
               <div>
                 <img src={img1} alt="img1" />
               </div>
@@ -78,7 +78,7 @@ class App extends Component {
 
             </div>
           </main>
-          <section className="about-me">
+          <section className="about-me" id="about-me">
             <div className="about-me-wrap">
               <div className="top">
                 <h2>about</h2>
