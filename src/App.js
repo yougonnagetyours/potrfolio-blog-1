@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import './App.sass';
-import kangarooSmall from './img/kangarooSmall.png';
-import hamburger from './img/hamburger.png';
-import close from './img/close.png';
 import backgroundBest2 from './img/background-best2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MenuHamburger from './MenuHamburger';
+import BurgerButton from './BurgerButton';
+import Header from './Header';
 import Photos from './Photos';
 import AboutMe from './AboutMe';
-import Header from './Header'
 
 class App extends Component {
   state = {
@@ -27,13 +24,11 @@ class App extends Component {
   // componentDidMount(
   //   console.log(document.querySelector('main').height());
   // )
-  // <Header isActive={this.state.isActive} handleApp={this.handleApp} />
+  // <BurgerButton isActive={this.state.isActive} handleMenu={this.handleMenu} />
   render() {
     return (
       <>
-        <div onClick={this.handleMenu} className="burger">
-          <img className={this.state.isActive ? 'burger-img close' : 'burger-img'} alt="hamburger" src={this.state.isActive ? close : hamburger} />
-        </div>
+        <BurgerButton isActive={this.state.isActive} handleMenu={this.handleMenu} />
         <div className={this.state.isActive ? "App activeApp" : "App"} onClick={this.handleApp}>
           <img className="background" src={backgroundBest2} alt="background" />
           <Header isActive={this.state.isActive} handleApp={this.handleApp} />
