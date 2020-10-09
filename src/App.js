@@ -18,13 +18,11 @@ class App extends Component {
     isActive: false,
   }
   handleMenu = () => {
-    // console.log('click')
     this.setState({
       isActive: !this.state.isActive
     })
   }
   handleApp = () => {
-    // console.log('click')
     this.setState({
       isActive: false
     })
@@ -45,10 +43,7 @@ class App extends Component {
               <div>
                 <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
               </div>
-              {/* <div onClick={this.handleMenu} className="burger">
-                <img className={this.state.isActive ? 'burger-img close' : 'burger-img'} alt="hamburger" src={this.state.isActive ? close : hamburger} />
-              </div> */}
-              <MenuHamburger isActive={this.state.isActive} />
+              <MenuHamburger isActive={this.state.isActive} handleApp={this.handleApp}/>
             </nav>
             <div className="main-logo">
               <h2>Kangur</h2>
