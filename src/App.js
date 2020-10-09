@@ -5,12 +5,6 @@ import hamburger from './img/hamburger.png';
 import close from './img/close.png';
 import backgroundBest2 from './img/background-best2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import img1 from './img/IMG_2852.jpeg';
-import img2 from './img/IMG_2863.jpeg';
-import img3 from './img/IMG_2865.jpeg';
-import img4 from './img/IMG_2867.jpeg';
-import img5 from './img/IMG_2885.jpeg';
-import img6 from './img/IMG_3386.jpeg';
 import MenuHamburger from './MenuHamburger';
 import Photos from './Photos'
 
