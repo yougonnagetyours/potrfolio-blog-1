@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/potrfolio-blog-1/precache-manifest.480a6540aa233ded31cc8bbdec4c7c7e.js"
+  "/potrfolio-blog-1/precache-manifest.404977b891d3887598f1f89b488c6aa2.js"
 );
 
 workbox.clientsClaim();

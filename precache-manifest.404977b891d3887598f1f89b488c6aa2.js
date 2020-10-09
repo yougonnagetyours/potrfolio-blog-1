@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "dac4a065ad723027d4b0",
-    "url": "/potrfolio-blog-1/static/css/main.7e601e2b.chunk.css"
+    "revision": "f0c867991768e1259f75",
+    "url": "/potrfolio-blog-1/static/css/main.b870767e.chunk.css"
   },
   {
-    "revision": "dac4a065ad723027d4b0",
-    "url": "/potrfolio-blog-1/static/js/main.01c141e5.chunk.js"
+    "revision": "f0c867991768e1259f75",
+    "url": "/potrfolio-blog-1/static/js/main.a90650e3.chunk.js"
   },
   {
     "revision": "d7895d39aeaa736e3b47",
     "url": "/potrfolio-blog-1/static/js/runtime~main.54744e19.js"
   },
   {
-    "revision": "a8c5d1b8b470ca28f0e9",
+    "revision": "18d437c6a2d79076ced6",
     "url": "/potrfolio-blog-1/static/css/2.5773182c.chunk.css"
   },
   {
-    "revision": "a8c5d1b8b470ca28f0e9",
-    "url": "/potrfolio-blog-1/static/js/2.1848973e.chunk.js"
+    "revision": "18d437c6a2d79076ced6",
+    "url": "/potrfolio-blog-1/static/js/2.549cff2e.chunk.js"
   },
   {
     "revision": "25b1fbc8dfbcc7b4effac37b5c710cd9",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/potrfolio-blog-1/static/media/IMG_3386.d37781f3.jpeg"
   },
   {
-    "revision": "3a059d4d456a838e2bcca666cee4f7d6",
+    "revision": "ad442e9796f1915da8fc0098b87ee8ad",
     "url": "/potrfolio-blog-1/index.html"
   }
 ];
