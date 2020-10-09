@@ -11,7 +11,6 @@ ul.menu-hamburger {
   /* background-color: rgba(0, 0, 0, .87); */
   color: #ffffff;
   background-color: #000000;
-  list-style: none;
   transition: .5s;
 }
 
@@ -28,7 +27,9 @@ ul.menu-hamburger {
   letter-spacing: 4px;
   font-family: 'Permanent Marker', cursive;
   font-size: 1.7rem;
-  text-decoration: none;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  cursor: pointer;
 }
 
 .active {
