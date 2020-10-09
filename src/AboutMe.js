@@ -1,0 +1,22 @@
+import React from 'react';
+
+const AboutMe = (props) => {
+
+  // const isActive = props.isActive;
+
+  return (
+    <section className="about-me" id="about-me">
+      <div className="about-me-wrap">
+        <div className="top">
+          <h2>about</h2>
+          <h1>me</h1>
+        </div>
+        <div className="body">
+          <p>I am a passionate photographer, specialized in the landscapes, beautiful views and the people with nature in the background</p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default AboutMe;
