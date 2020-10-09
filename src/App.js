@@ -7,7 +7,8 @@ import backgroundBest2 from './img/background-best2.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MenuHamburger from './MenuHamburger';
 import Photos from './Photos';
-import AboutMe from './AboutMe'
+import AboutMe from './AboutMe';
+import Header from './Header'
 
 class App extends Component {
   state = {
@@ -26,6 +27,7 @@ class App extends Component {
   // componentDidMount(
   //   console.log(document.querySelector('main').height());
   // )
+  // <Header isActive={this.state.isActive} handleApp={this.handleApp} />
   render() {
     return (
       <>
@@ -34,18 +36,7 @@ class App extends Component {
         </div>
         <div className={this.state.isActive ? "App activeApp" : "App"} onClick={this.handleApp}>
           <img className="background" src={backgroundBest2} alt="background" />
-          <header className='header'>
-            <nav>
-              <div>
-                <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
-              </div>
-              <MenuHamburger isActive={this.state.isActive} handleApp={this.handleApp}/>
-            </nav>
-            <div className="main-logo">
-              <h2>Kangur</h2>
-              <h1>Photography</h1>
-            </div>
-          </header>
+          <Header isActive={this.state.isActive} handleApp={this.handleApp} />
           <Photos />
           <AboutMe />
           <footer>
