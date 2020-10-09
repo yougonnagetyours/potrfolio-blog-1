@@ -11,7 +11,8 @@ import img3 from './img/IMG_2865.jpeg';
 import img4 from './img/IMG_2867.jpeg';
 import img5 from './img/IMG_2885.jpeg';
 import img6 from './img/IMG_3386.jpeg';
-import MenuHamburger from './MenuHamburger'
+import MenuHamburger from './MenuHamburger';
+import Photos from './Photos'
 
 class App extends Component {
   state = {
@@ -50,29 +51,7 @@ class App extends Component {
               <h1>Photography</h1>
             </div>
           </header>
-          <main>
-            <div className="image-box">
-              <div>
-                <img src={img1} alt="img1" />
-              </div>
-              <div>
-                <img src={img2} alt="img2" />
-              </div>
-              <div>
-                <img src={img3} alt="img3" />
-              </div>
-              <div>
-                <img src={img4} alt="img4" />
-              </div>
-              <div>
-                <img src={img5} alt="img5" />
-              </div>
-              <div>
-                <img src={img6} alt="img6" />
-              </div>
-
-            </div>
-          </main>
+          <Photos />
           <section className="about-me" id="about-me">
             <div className="about-me-wrap">
               <div className="top">
