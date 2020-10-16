@@ -15,7 +15,8 @@ ul.menu-hamburger {
 }
 
 .kangaroo-menu {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
+  height: 150px;
   -webkit-filter: invert(1);
   filter: invert(1);
 }
@@ -26,7 +27,7 @@ ul.menu-hamburger {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-family: 'Permanent Marker', cursive;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-decoration: none !important;
   color: #ffffff !important;
   cursor: pointer;
