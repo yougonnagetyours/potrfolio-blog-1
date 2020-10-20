@@ -47,3 +47,4 @@ ul.menu-hamburger {
   z-index: 50;
   transition: .5s;
 }
+/*Zrobić, żeby .active była jako klasa dodana a nie zamieniona z .menu-hamburger*/
