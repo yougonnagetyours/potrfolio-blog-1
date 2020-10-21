@@ -10,6 +10,7 @@ import AboutMe from './AboutMe';
 class App extends Component {
   state = {
     isActive: false,
+    isPortfolioActive: false
   }
   handleMenu = () => {
     this.setState({
@@ -19,6 +20,11 @@ class App extends Component {
   handleApp = () => {
     this.setState({
       isActive: false
+    })
+  }
+  handlePortfolio = () =>{
+    this.setState({
+      isPortfolioActive: !this.state.isPortfolioActive
     })
   }
   // componentDidMount(
@@ -38,6 +44,11 @@ class App extends Component {
             <p>@yougonnagetyours 2020</p>
           </footer>
         </div >
+        <aside className="portfolio-selection">
+          <div className="header-aside"></div>
+          <div className="photos1-aside"></div>
+          <div className="photos2-aside"></div>
+        </aside>
       </>
     );
   }

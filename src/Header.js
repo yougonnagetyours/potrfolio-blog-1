@@ -10,7 +10,7 @@ const Header = (props) => {
   return (
     <header className='header'>
       <nav>
-        <div>
+        <div className="kangaroo-container">
           <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
         </div>
         <MenuHamburger isActive={isActive} handleApp={handleApp}/>
