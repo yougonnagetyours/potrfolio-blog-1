@@ -41,3 +41,7 @@
   left: 15%;
   top: 0;
 }
+.activePortfolio {
+  left: -100%;
+  top: 0;
+}
