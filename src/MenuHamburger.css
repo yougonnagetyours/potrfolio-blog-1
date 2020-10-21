@@ -1,4 +1,4 @@
-ul.menu-hamburger {
+.menu-hamburger {
   position: fixed;
   z-index: 50;
   left: 100%;
@@ -34,17 +34,17 @@ ul.menu-hamburger {
 }
 
 .active {
-  position: fixed;
+  /* position: fixed; */
   left: 15%;
   top: 0;
-  padding-top: 12vh;
+  /* padding-top: 12vh;
   list-style: none;
   text-align: center;
   width: 85%;
   height: 100%;
   color: #ffffff;
   background-color: rgba(0, 0, 0, .80);
-  z-index: 50;
+  z-index: 50; */
   transition: .5s;
+  /* z-index: 50; */
 }
-/*Zrobić, żeby .active była jako klasa dodana a nie zamieniona z .menu-hamburger*/

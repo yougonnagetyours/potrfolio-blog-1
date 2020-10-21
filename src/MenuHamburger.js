@@ -9,7 +9,7 @@ const MenuHamburger = (props) => {
   const handleApp = props.handleApp;
 
   return (
-    <ul className={isActive ? "active" : "menu-hamburger"}>
+    <ul className={isActive ? "menu-hamburger active" : "menu-hamburger"}>
       <img className="kangaroo-menu" src={kangarooSmall} alt="kangaroo" />
       <li className='li'>
         <Link className='li' onClick={handleApp} to='header' smooth={true} duration={700}>Home</Link>
