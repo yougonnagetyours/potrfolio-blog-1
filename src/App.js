@@ -9,7 +9,7 @@ import AboutMe from './AboutMe';
 
 class App extends Component {
   state = {
-    isActive: false,
+    isActive: true,
     isPortfolioActive: false
   }
   handleMenu = () => {
@@ -23,6 +23,7 @@ class App extends Component {
     })
   }
   handlePortfolio = () =>{
+    console.log("click");
     this.setState({
       isPortfolioActive: !this.state.isPortfolioActive
     })
@@ -37,7 +38,7 @@ class App extends Component {
         <BurgerButton isActive={this.state.isActive} handleMenu={this.handleMenu} />
         <div className={this.state.isActive ? "App activeApp" : "App"} onClick={this.handleApp}>
           <img className="background" src={backgroundBest2} alt="background" />
-          <Header isActive={this.state.isActive} handleApp={this.handleApp} />
+          <Header isActive={this.state.isActive} handleApp={this.handleApp} handlePortfolio={this.handlePortfolio}  />
           <Photos />
           <AboutMe />
           <footer>

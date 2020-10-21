@@ -6,6 +6,7 @@ const Header = (props) => {
 
   const isActive = props.isActive;
   const handleApp = props.handleApp;
+  const handlePortfolio = props.handlePortfolio;
 
   return (
     <header className='header'>
@@ -13,7 +14,7 @@ const Header = (props) => {
         <div className="kangaroo-container">
           <img className="kangaroo" src={kangarooSmall} alt="kangaroo" />
         </div>
-        <MenuHamburger isActive={isActive} handleApp={handleApp}/>
+        <MenuHamburger isActive={isActive} handleApp={handleApp} handlePortfolio={handlePortfolio} />
       </nav>
       <div className="main-logo">
         <h2>Kangur</h2>
