@@ -34,6 +34,7 @@ class App extends Component {
           <Header isActive={this.state.isActive} handleApp={this.handleApp} handlePortfolio={this.handlePortfolio}  />
           <Photos />
           <AboutMe />
+          <Photos />
           <footer>
             <p>@yougonnagetyours 2020</p>
           </footer>
