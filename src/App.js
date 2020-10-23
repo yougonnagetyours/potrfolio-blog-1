@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BurgerButton from './BurgerButton';
 import Header from './Header';
 import Photos from './Photos';
+import Photos1 from './Photos1';
 import AboutMe from './AboutMe';
 
 class App extends Component {
@@ -34,7 +35,7 @@ class App extends Component {
           <Header isActive={this.state.isActive} handleApp={this.handleApp} handlePortfolio={this.handlePortfolio}  />
           <Photos />
           <AboutMe />
-          <Photos />
+          <Photos1 />
           <footer>
             <p>@yougonnagetyours 2020</p>
           </footer>

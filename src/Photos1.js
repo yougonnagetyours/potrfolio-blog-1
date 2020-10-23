@@ -1,10 +1,18 @@
 import React from 'react';
-import img1 from './img/IMG_2852.jpeg';
-import img2 from './img/IMG_2863.jpeg';
-import img3 from './img/IMG_2865.jpeg';
-import img4 from './img/IMG_2867.jpeg';
-import img5 from './img/IMG_2885.jpeg';
-import img6 from './img/IMG_3386.jpeg';
+import baltic1 from './img/Baltic1.jpg';
+import baltic2 from './img/Baltic2.jpg';
+import baltic3 from './img/Baltic3.jpg';
+import baltic4 from './img/Baltic4.jpg';
+import baltic5 from './img/Baltic5.jpg';
+import baltic6 from './img/Baltic6.jpg';
+import baltic7 from './img/Baltic7.jpg';
+import baltic8 from './img/Baltic8.jpg';
+import baltic9 from './img/Baltic9.jpg';
+import baltic10 from './img/Baltic10.jpg';
+import baltic11 from './img/Baltic11.jpg';
+import baltic12 from './img/Baltic12.jpg';
+import baltic13 from './img/Baltic13.jpg';
+
 
 const Photos1 = (props) => {
 
@@ -12,24 +20,25 @@ const Photos1 = (props) => {
 
   return (
     <main>
+      <h2 className="photos1-header">baltic trip</h2>
       <div className="image-box">
         <div>
-          <img src={img1} alt="img1" />
+          <img src={baltic1} alt="img1" />
         </div>
         <div>
-          <img src={img2} alt="img2" />
+          <img src={baltic2} alt="img2" />
         </div>
         <div>
-          <img src={img3} alt="img3" />
+          <img src={baltic3} alt="img3" />
         </div>
         <div>
-          <img src={img4} alt="img4" />
+          <img src={baltic4} alt="img4" />
         </div>
         <div>
-          <img src={img5} alt="img5" />
+          <img src={baltic5} alt="img5" />
         </div>
         <div>
-          <img src={img6} alt="img6" />
+          <img src={baltic6} alt="img6" />
         </div>
       </div>
     </main>
