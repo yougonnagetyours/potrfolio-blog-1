@@ -20,8 +20,12 @@ const Photos1 = (props) => {
 
   return (
     <main>
-      <h2 className="photos1-header">baltic trip</h2>
-      <div className="image-box">
+      
+      <div className="image-box-2">
+        <h2 className="photos1-header">
+          <div className='top-header'>baltic</div>
+          <div className='bott-header'>trip</div>
+        </h2>
         <div>
           <img src={baltic1} alt="img1" />
         </div>
