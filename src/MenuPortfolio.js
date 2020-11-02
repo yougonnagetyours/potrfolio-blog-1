@@ -8,15 +8,14 @@ const MenuPortfolio = (props) => {
   // const handleApp = props.handleApp;
 
   return (
-    <section>
+    <section className="menu-portfolio" id="menu-portfolio">
       <ul className="" >
         <li className='li'>
-          <div className='li'>Portfolio ></div>
+          <Link className='li' to='photos1' smooth={true} duration={700}>Baltic trip</Link>
         </li>
-        <li className='li'>
-          <Link className='li' onClick='' to='about-me' smooth={true} duration={700}>About me</Link>
+         <li className='li'>
+          <Link className='li'  to='' smooth={true} duration={700}>Zakopane 2020</Link>
         </li>
-        <li className='li'>Contact</li>
       </ul>
     </section>
   );

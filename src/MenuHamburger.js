@@ -12,7 +12,7 @@ const MenuHamburger = (props) => {
     <ul className={isActive ? "menu-hamburger active" : "menu-hamburger"} >
       <img className="kangaroo-menu" src={kangarooSmall} alt="kangaroo" />
       <li className='li'>
-        <div className='li'>Portfolio</div>
+        <Link className='li' onClick={handleApp} to='portfolio-slide' smooth={true} duration={700}>Portfolio</Link>
       </li>
       <li className='li'>
         <Link className='li' onClick={handleApp} to='about-me' smooth={true} duration={700}>About me</Link>

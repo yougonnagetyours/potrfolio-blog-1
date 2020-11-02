@@ -36,6 +36,8 @@ class App extends Component {
           <Header isActive={this.state.isActive} handleApp={this.handleApp} handlePortfolio={this.handlePortfolio}  />
           <Photos />
           <AboutMe />
+          <div id='portfolio-slide'style={{height: "15vh"}}></div>
+          <MenuPortfolio />
           <Photos1 />
           <footer>
             <p>@yougonnagetyours 2020</p>

@@ -19,7 +19,7 @@ const Photos1 = (props) => {
   // const isActive = props.isActive;
 
   return (
-    <main className="photos1">
+    <main className="photos1" id="photos1">
       <h2 className="photos1-header">
           <div className='top-header'>baltic</div>
           <div className='bott-header'>trip</div>
