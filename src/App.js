@@ -7,6 +7,7 @@ import Header from './Header';
 import Photos from './Photos';
 import Photos1 from './Photos1';
 import AboutMe from './AboutMe';
+import MenuPortfolio from './MenuPortfolio'
 
 class App extends Component {
   state = {
