@@ -12,6 +12,7 @@ import baltic10 from './img/Baltic10.jpg';
 import baltic11 from './img/Baltic11.jpg';
 import baltic12 from './img/Baltic12.jpg';
 import baltic13 from './img/Baltic13.jpg';
+import './Photos1.css';
 
 
 const Photos1 = (props) => {
@@ -21,8 +22,8 @@ const Photos1 = (props) => {
   return (
     <main className="photos1" id="photos1">
       <h2 className="photos1-header">
-          <div className='top-header'>baltic</div>
-          <div className='bott-header'>trip</div>
+        <div className='top-header'>baltic</div>
+        <div className='bott-header'>trip</div>
       </h2>
       <div className="image-box-2">
         <div>

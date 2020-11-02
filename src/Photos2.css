@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main.photos2 {
+  padding-top: 15vh;
+}
+
+.photos2-header {
+  /* font-size: 40px; */
+  /* color: rgba(255, 255, 255, 0.637); */
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  /* background-color: rgba(255,255,255,.5); */
+  border-radius: 20px;
+  width: 100vw;
+  padding: 20px 0;
+  margin-bottom: 5vh
+    /* height: 20vh; */
+}
+
+.photos2-header .top-header {
+  font-size: 33px;
+  padding-bottom: 0;
+}
+
+.photos2-header .mid-header {
+  font-size: 33px;
+  padding-bottom: 0;
+}
+
+
+.photos2-header .bott-header {
+  font-size: 50px;
+  padding-top: 0;
+}
+
+.image-box-3 {
+  /* display: none; */
+  display: flex;
+  width: 100%;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  background-color: rgba(0, 0, 0, .80);
+  padding: 10px 0;
+}
+
+.image-box-3 div {
+  padding: 10px 20px;
+  flex-basis: 100%;
+}
+
+.image-box-3 div img {
+  width: 100%;
+}
