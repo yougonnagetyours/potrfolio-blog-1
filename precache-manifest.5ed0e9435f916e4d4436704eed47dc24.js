@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "18298f4fccfd4e6bd3c0",
-    "url": "/potrfolio-blog-1/static/css/main.27e3f227.chunk.css"
+    "revision": "c0c85d25046b1581fa1d",
+    "url": "/potrfolio-blog-1/static/css/main.c4ba199b.chunk.css"
   },
   {
-    "revision": "18298f4fccfd4e6bd3c0",
-    "url": "/potrfolio-blog-1/static/js/main.73218417.chunk.js"
+    "revision": "c0c85d25046b1581fa1d",
+    "url": "/potrfolio-blog-1/static/js/main.6cd71a9a.chunk.js"
   },
   {
     "revision": "d7895d39aeaa736e3b47",
     "url": "/potrfolio-blog-1/static/js/runtime~main.54744e19.js"
   },
   {
-    "revision": "67078faffc24e1d66e17",
+    "revision": "86bdd22ea173a5e744ab",
     "url": "/potrfolio-blog-1/static/css/2.5773182c.chunk.css"
   },
   {
-    "revision": "67078faffc24e1d66e17",
-    "url": "/potrfolio-blog-1/static/js/2.810f19b5.chunk.js"
+    "revision": "86bdd22ea173a5e744ab",
+    "url": "/potrfolio-blog-1/static/js/2.80bd8d1b.chunk.js"
   },
   {
     "revision": "25b1fbc8dfbcc7b4effac37b5c710cd9",
@@ -72,6 +72,22 @@ self.__precacheManifest = [
     "url": "/potrfolio-blog-1/static/media/Baltic6.59dde49b.jpg"
   },
   {
+    "revision": "ef246aed43c73728565dd92ef2ad5552",
+    "url": "/potrfolio-blog-1/static/media/z1.ef246aed.jpg"
+  },
+  {
+    "revision": "b26dd5ef43ccb1d598163eb91e2558cf",
+    "url": "/potrfolio-blog-1/static/media/z2.b26dd5ef.jpg"
+  },
+  {
+    "revision": "f85b2cd1b17f679bd98da7e256448cac",
+    "url": "/potrfolio-blog-1/static/media/z3.f85b2cd1.jpg"
+  },
+  {
+    "revision": "347af5c128542d669dbd570361d407f4",
+    "url": "/potrfolio-blog-1/static/media/z4.347af5c1.jpg"
+  },
+  {
     "revision": "5f9997666b8828144f461c48c58e84ab",
     "url": "/potrfolio-blog-1/static/media/aboutMePic.5f999766.jpg"
   },
@@ -104,7 +120,7 @@ self.__precacheManifest = [
     "url": "/potrfolio-blog-1/static/media/Baltic13.10623716.jpg"
   },
   {
-    "revision": "bccc812ee8543cb229bbae152f561e17",
+    "revision": "22f8f52c2523f6190bbd845f116dbbff",
     "url": "/potrfolio-blog-1/index.html"
   }
 ];
