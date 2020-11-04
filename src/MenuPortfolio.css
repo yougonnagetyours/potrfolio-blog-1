@@ -18,3 +18,17 @@ section.menu-portfolio ul{
 section.menu-portfolio ul li.li{
   background-color: #555;
 } */
+
+section.menu-portfolio .li {
+  list-style: none;
+  margin-top: 7vh;
+  margin-bottom: 13vh;
+  margin: 7vh 15px 13vh 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5rem;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  cursor: pointer;
+}

@@ -17,11 +17,6 @@ const AboutMe = (props) => {
             <p>I am a passionate photographer, specialized in the landscapes, beautiful views and the people with nature in the background</p>
           </div>
         </div>
-        <div className="about-me-box">
-          <div>
-            <img src={aboutMePic} alt="boguś" />
-          </div>
-        </div>
       </div>
     </section>
   );

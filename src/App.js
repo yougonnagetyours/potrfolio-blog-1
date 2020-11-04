@@ -28,9 +28,10 @@ class App extends Component {
   //   console.log(document.querySelector('main').height());
   // )
   // <BurgerButton isActive={this.state.isActive} handleMenu={this.handleMenu} />
+  // <img className="background" src={backgroundBest2} alt="background" />
   render() {
     return (
-      <>
+      <div className='wrapper'>
         <BurgerButton isActive={this.state.isActive} handleMenu={this.handleMenu} />
         <div className={this.state.isActive ? "App activeApp" : "App"} onClick={this.handleApp}>
           <img className="background" src={backgroundBest2} alt="background" />
@@ -45,7 +46,7 @@ class App extends Component {
             <p>@yougonnagetyours 2020</p>
           </footer>
         </div >
-      </>
+      </div>
     );
   }
 }

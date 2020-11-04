@@ -1,5 +1,4 @@
 import React from 'react';
-import Lightbox from 'react-lightbox-component';
 import baltic1 from './img/Baltic1.jpg';
 import baltic2 from './img/Baltic2.jpg';
 import baltic3 from './img/Baltic3.jpg';
@@ -28,17 +27,6 @@ const Photos1 = (props) => {
       </h2>
       <div className="image-box-2">
         <div>
-          <Lightbox images={
-            [
-              {
-                src: baltic1,
-                title: 'image title',
-                description: 'image description'
-              }
-            ]
-          } />
-        </div>
-        <div>
           <img src={baltic1} alt="img1" />
         </div>
         <div>
@@ -55,6 +43,27 @@ const Photos1 = (props) => {
         </div>
         <div>
           <img src={baltic6} alt="img6" />
+        </div>
+        <div>
+          <img src={baltic7} alt="img7" />
+        </div>
+        <div>
+          <img src={baltic8} alt="img8" />
+        </div>
+        <div>
+          <img src={baltic9} alt="img9" />
+        </div>
+        <div>
+          <img src={baltic10} alt="img10" />
+        </div>
+        <div>
+          <img src={baltic11} alt="img11" />
+        </div>
+        <div>
+          <img src={baltic12} alt="img12" />
+        </div>
+        <div>
+          <img src={baltic13} alt="img13" />
         </div>
       </div>
     </main>

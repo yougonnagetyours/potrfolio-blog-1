@@ -28,22 +28,24 @@
   position: relative
   left: 0
   top: 0
-  // width: 100%
-  // height: 100%
-  // background-image: url(./img/Background.jpeg)
-  // background-attachment: fixed
-  //background-position: 
-  background-repeat: repeat
-  background-size: cover
+  width: 100%
+  height: 100%
+  //background-image: url('./img/background-best2.jpg') no-repeat
+  //background-attachment: fixed
+  //background-position: center center
+  //background-size: cover
   transition: .7s
   .background
     position: fixed
+    background-color: #000
     left: 0
     top: 0
+    //width: 500px
+    width: 100vw
     //przez height: 100% rozjeżdzało się na mobile
     height: 100vh
     z-index: -50
-    @media (min-width: 576px)
+    @media (min-width: 400px)
       width: 100vw
   header
     position: relative
@@ -107,7 +109,7 @@
     //transform: translate(-50%, -50%)
     // background-color: rgba(0,0,0,.80)
     // margin-top: 20vh
-    min-height: 105vh
+    min-height: 65vh
     .about-me-container
       position: absolute
       left: 50%
