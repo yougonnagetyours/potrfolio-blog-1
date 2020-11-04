@@ -17,7 +17,7 @@ const MenuHamburger = (props) => {
       <li className='li'>
         <Link className='li' onClick={handleApp} to='about-me' smooth={true} duration={700}>About me</Link>
       </li>
-      <li className='li'>Contact</li>
+      <Link className='li' onClick={handleApp} to='contact-container' smooth={true} duration={700}>Contact</Link>
     </ul>
   );
 }

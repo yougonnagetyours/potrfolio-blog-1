@@ -9,6 +9,7 @@ import Photos1 from './Photos1';
 import Photos2 from './Photos2';
 import AboutMe from './AboutMe';
 import MenuPortfolio from './MenuPortfolio'
+import Contact from './Contact'
 
 class App extends Component {
   state = {
@@ -42,6 +43,7 @@ class App extends Component {
           <MenuPortfolio />
           <Photos1 />
           <Photos2 />
+          <Contact />
           <footer>
             <p>@yougonnagetyours 2020</p>
           </footer>
