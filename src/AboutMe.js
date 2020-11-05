@@ -1,4 +1,5 @@
 import React from 'react';
+import './AboutMe.css';
 import aboutMePic from './img/aboutMePic.jpg';
 
 const AboutMe = (props) => {

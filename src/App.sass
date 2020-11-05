@@ -2,192 +2,27 @@
   padding: 0
   margin: 0
   box-sizing: border-box
-.burger
-  // position: fixed
-  position: absolute
-  right: 5vw
-  top: 2.5vh
-  z-index: 51
-  padding: 2px
-  border: none
-  cursor: pointer
-  .burger-img
-    height: 5vh
-    background-color: rgba(0,0,0,0)
-    transition: .3s
-  .close
-    // height: 3vh 
-    // border-radius: 50px
-    right: 5vw
-    top: 2.5vh
-    position: fixed
-    height: 4vh
-    -webkit-filter: invert(1)
-    filter: invert(1)
 .App
   position: relative
   left: 0
   top: 0
   width: 100%
   height: 100%
-  //background-image: url('./img/background-best2.jpg') no-repeat
-  //background-attachment: fixed
-  //background-position: center center
-  //background-size: cover
   transition: .7s
   .background
     position: fixed
     background-color: #000
     left: 0
     top: 0
-    //width: 500px
     width: 100vw
-    //przez height: 100% rozjeżdzało się na mobile
     height: 100vh
     z-index: -50
-    @media (min-width: 400px)
-      width: 100vw
-  header
-    position: relative
-    height: 75vh
-    @media (min-width: 576px)
-      height: 100vh
-    nav
-      .kangaroo-container
-        position: relative
-        width: 100%
-        height: 11vh
-        // background-color: #ffffff
-        background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.4),rgba(255,255,255,.4),rgba(255,255,255,.3), rgba(255,255,255,.1))
-        .kangaroo
-          position: absolute
-          left: 5vw
-          top: 50%
-          transform: translate(0,-50%)
-          height: 7vh
-    .main-logo
-      position: absolute
-      left: 50%
-      top: 46%
-      transform: translate(-50%, -50%)
-      font-family: 'Permanent Marker', cursive
-      text-align: center
-      text-transform: uppercase
-      letter-spacing: 3px
-      h1
-        font-size: 25px
-      h2
-        font-size: 46px
-  main
-    .image-box
-      display: flex
-      width: 100%
-      border-radius: 20px
-      flex-wrap: wrap
-      justify-content: space-around
-      align-content: space-around
-      background-color: rgba(0,0,0,.80)
-      padding: 10px 0
-      @media (min-width: 576px)
-        flex-direction: column
-        flex-wrap: wrap
-      div
-        padding: 10px 20px
-        flex-basis: 100%
-        @media (min-width: 576px)
-          flex-basis: 20%
-        @media (min-width: 768px)
-          flex-basis: 33%
-        img
-          width: 100%
-  section.about-me
-    position: relative
-    //padding: 20vh 13px
-    //position: absolute
-    //left: 50%
-    //top: 50%
-    //transform: translate(-50%, -50%)
-    // background-color: rgba(0,0,0,.80)
-    // margin-top: 20vh
-    min-height: 65vh
-    .about-me-container
-      position: absolute
-      left: 50%
-      top: 50%
-      transform: translate(-50%, -50%)
-      .about-me-wrap
-        //position: absolute
-        //left: 50%
-        //top: 50%
-        //transform: translate(-50%, -50%)
-        //padding: 40px 13px 40px
-        margin-top: 220px
-        padding-top: 20px
-        //padding-bottom: 20px
-        // color: #ffffff
-        background-color: rgba(255,255,255,.5)
-        // background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,0))
-        border-radius: 20px
-        width: 100vw
-        font-family: 'Permanent Marker', cursive
-        text-align: center
-        text-transform: uppercase
-        letter-spacing: 3px
-        // background-color: #ffffff
-        .top
-          //padding-top: 20px
-          margin-bottom: 10px
-          h2
-            font-size: 23px
-            margin-top: 20px
-            margin-bottom: -5px
-          h1
-            font-size: 49px
-        .body
-          // position: absolute
-          // left: 50%
-          // top: 25%
-          // transform: translate(-50%, -50%)
-          // background-color: rgba(255,255,255,.35)
-          padding: 20px
-          // border-radius: 50px
-          font-family: 'Permanent Marker', cursive
-          text-align: center
-          text-transform: uppercase
-          letter-spacing: 3px
-          // background-color: #666666 
-      .about-me-box
-        display: flex
-        position: relative
-        //left: 50%
-        //top: 50%
-        //transform: translate(-50%, -50%)
-        width: 65%
-        border-radius: 20px
-        flex-wrap: wrap
-        justify-content: center
-        align-content: center
-        background-color: rgba(0,0,0,.80)
-        padding: 10px 0
-        margin-left: 30px
-        margin-top: 40px
-        div
-          flex-basis: 100%
-          transform: translate(38%, 0)
-          padding: 10px 20px
-          img
-            //display: block
-            width: 100%
-            border: 4px solid rgba(0,0,0,.80)
-            border-radius: 20px
-            margin: 0 auto
   footer
     position: absolute
     left: 0
     bottom: 0
     width: 100%
     text-align: center
-    // transform: translate(-50%, -50%)
     background-color: #000000
     p
       margin-top: 12px
@@ -200,4 +35,3 @@
 .activeApp
   left: -85%
   top: 0
-  // transition: 3s

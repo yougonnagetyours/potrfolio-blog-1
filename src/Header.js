@@ -1,4 +1,5 @@
 import React from 'react';
+import './Header.css';
 import kangarooSmall from './img/kangarooSmall.png';
 import MenuHamburger from './MenuHamburger';
 

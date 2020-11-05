@@ -1,0 +1,22 @@
+.burger{
+  position: absolute;
+  right: 5vw;
+  top: 2.5vh;
+  z-index: 51;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+}
+  .burger .burger-img{
+    height: 5vh;
+    background-color: rgba(0,0,0,0);
+    transition: .3s;
+  }
+  .burger .close{
+    right: 5vw;
+    top: 2.5vh;
+    position: fixed;
+    height: 4vh;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }

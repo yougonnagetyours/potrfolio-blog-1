@@ -1,4 +1,5 @@
 import React from 'react';
+import './BurgerButton.css';
 import hamburger from './img/hamburger.png';
 import close from './img/close.png';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Photos1.css';
+import './Photos.css';
 import img1 from './img/IMG_2852.jpeg';
 import img2 from './img/IMG_2863.jpeg';
 import img3 from './img/IMG_2865.jpeg';
