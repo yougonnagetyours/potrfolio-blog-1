@@ -39,7 +39,7 @@ class App extends Component {
           <Header isActive={this.state.isActive} handleApp={this.handleApp} handlePortfolio={this.handlePortfolio} />
           <Photos />
           <AboutMe />
-          <div id='portfolio-slide' style={{ height: "15vh" }}></div>
+          {/* <div id='portfolio-slide' style={{ height: "15vh" }}></div> */}
           <MenuPortfolio />
           <Photos1 />
           <Photos2 />
